@@ -15,9 +15,9 @@ Whether vibration was detected
 Whether deformation occurred
 Whether the airbag deployed
 And selects the accident location from one of three predefined areas:
-Location A → Hospital A (mathuchinnamurugan@gmail.com)
-Location B → Hospital B (mathu4752@gmail.com)
-Location C → Hospital C (raghavelumalai@gmail.com)
+Location A → Hospital A (example1@gmail.com)
+Location B → Hospital B (example2@gmail.com)
+Location C → Hospital C (example3@gmail.com)
 When the form is submitted, this data is sent to a backend via AWS API Gateway.
 API Gateway then triggers an AWS Lambda function, which does the following:
 Checks if the conditions meet the criteria for a likely accident:
